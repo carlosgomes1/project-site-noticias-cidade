@@ -78,3 +78,74 @@ body.fotos nav a#fotos
     background: #de003e;
     cursor: text;
 }
+
+/*              Configuração layout 3 colunas (INDEX)       */
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#tres-colunas section#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas section#primario {
+    width: 555px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#uma-coluna section#primario {
+    width: 750px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+section#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+aside {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/*              CAIXAS           */
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+.caixa h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*                  Footer(Rodapé)          */
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+footer {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
