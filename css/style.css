@@ -94,13 +94,13 @@ body.fotos nav a#fotos
 #duas-colunas section#primario {
     width: 555px;
     float: left;
-    margin-bottom: 20px;
+    margin: 0 0 20px 195px;
 }
 
 #uma-coluna section#primario {
     width: 750px;
     float: left;
-    margin-bottom: 20px;
+    margin: 0 0 20px 195px;
 }
 
 section#secundario {
@@ -134,6 +134,69 @@ aside {
     background: #FFF;
     padding: 5px;
     margin-top: 5px;
+}
+
+/*                      Formatando imagens                     */
+
+img {
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal {
+    border: 3px solid #dfdfdf;
+    margin-top: 5px;
+}
+
+/*                      Formatação dos cabeçalhos           */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #FFF;
+}
+
+.ultima-entrevista h3 {
+    font-size: 0.77em;
+    background: #b10333;
+    color: #000;
+}
+
+/*                     Formatação da aba mundo e noticias recentes(listas)          */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.7em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.65em;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
 }
 
 /*                      Formatação barra lateral(aside)        */
